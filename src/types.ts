@@ -12,3 +12,11 @@ export type TMuiClickhandler = (
 ) => void;
 
 export type TFilterTasks = (tasks: ITodo[], method: number) => ITodo[];
+
+export type TTaskActions = {
+  tasks: ITodo[],
+  addTask: (taskValue: string) => void,
+  removeTask: THandlerById,
+  toggleTask: THandlerById,
+  clearCompletedTasks: () => void
+}

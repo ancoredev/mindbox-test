@@ -25,6 +25,7 @@ const TodoList: FC<TodoListProps> = ({
   removeTask, 
   toggleTask 
 }) => {
+  const filteredTasks = filterTasks(items, filter);
   return (
     <div className={classes.todo}>
       <Filter 
@@ -34,14 +35,16 @@ const TodoList: FC<TodoListProps> = ({
       />
       <ul className={classes['todo-list']}>
       {
-        filterTasks(items, filter).map(item => (
-          <TodoItem
-            key={item.id}
-            removeTask={removeTask}
-            toggleTask={toggleTask}
-            {...item}
-          />
-        ))
+        filteredTasks.length !== 0 
+        ? filteredTasks.map(item => (
+            <TodoItem
+              key={item.id}
+              removeTask={removeTask}
+              toggleTask={toggleTask}
+              {...item}
+            />
+          ))
+        : <li className={classes['tasks-not-found']}>Нет выбранных задач</li>
       }
       </ul>
       <p className={classes['todo-left']}>Незавершенных задач: {tasksToComplete(items)}</p>

@@ -13,3 +13,8 @@
   text-align: center;
   color: #fff;
 }
+
+.tasks-not-found {
+  color:#fff;
+  text-align: center;
+}

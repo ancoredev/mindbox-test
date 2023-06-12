@@ -1,0 +1,37 @@
+.input-group {
+  position: relative;
+}
+
+.label {
+  color: #eef3ff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.input-todo {
+  width: 600px;
+  height: 44px;
+  box-sizing: border-box;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 120px;
+  border-radius: 5px;
+  border: none;
+}
+
+.add-button {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  top: 2px;
+  left: 498px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4895E9;
+  color: #fff;
+  transition: all 0.15s ease-in;
+}
+
+.add-button:hover {
+  background-color: #63a5ec;
+}

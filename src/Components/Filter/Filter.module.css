@@ -1,0 +1,32 @@
+.filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.task-select {   
+  width: 350px;
+}
+
+.task-select button, .filter button {
+  color: #fff;
+  background-color: transparent;
+  text-transform: capitalize;
+  height: 30px;
+  transition: all 0.1s ease-in;
+}
+
+.filter button {
+  height: 48px;
+}
+
+.task-select button:hover {
+  background-color: #63a5ec;
+}
+
+.task-select span{
+  background-color: transparent;
+}
+
+

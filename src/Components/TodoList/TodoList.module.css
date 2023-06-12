@@ -1,0 +1,15 @@
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.todo {
+  width: 600px;
+}
+
+.todo-left {
+  width: 600px;
+  text-align: center;
+  color: #fff;
+}

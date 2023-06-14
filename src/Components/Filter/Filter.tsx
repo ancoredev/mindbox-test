@@ -19,8 +19,9 @@ const Filter: FC<FilterProps> = ({ value, onChange, onClick }) => {
         value={value}
         onChange={onChange}
         textColor="inherit"
+        data-testid="tab-container"
       >
-        <Tab label="Все задачи" id="simple-tabs-1"/>
+        <Tab label="Все задачи" id="simple-tabs-1" />
         <Tab label="Активные" id="simple-tabs-2"/>
         <Tab label="Завершенные" id="simple-tabs-3"/>
       </Tabs>

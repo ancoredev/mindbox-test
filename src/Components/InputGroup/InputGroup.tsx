@@ -17,6 +17,8 @@ const InputGroup: FC<InputGroupProps> = ({ value, onChange, onClick }) => {
           type="text" 
           value={value} 
           onChange={onChange}
+          placeholder="Что нужно сделать?"
+          data-testid="input"
         />
         <button 
           className={classes['add-button']} 

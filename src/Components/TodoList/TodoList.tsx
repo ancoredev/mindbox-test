@@ -47,7 +47,7 @@ const TodoList: FC<TodoListProps> = ({
         : <li className={classes['tasks-not-found']}>Нет выбранных задач</li>
       }
       </ul>
-      <p className={classes['todo-left']}>Незавершенных задач: {tasksToComplete(items)}</p>
+      <p className={classes['todo-left']}>Активных задач: {tasksToComplete(items)}</p>
     </div>
   )
 }

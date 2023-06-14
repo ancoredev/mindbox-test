@@ -36,7 +36,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App" data-testid="app">
       <h1>ToDo</h1>
       <InputGroup
         value={inputValue}

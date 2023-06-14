@@ -52,7 +52,7 @@ describe('InputGroup component', () => {
     // Expected: test, Received: ''
   });
 
-  it('clears input after click and onClick works', async () => {
+  it('works with onClick event', async () => {
     const user = userEvent.setup();
     const { buttonEl } = setup('not empty string');
 

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mindbox-test/static/css/main.5f0c6d09.css",
+    "main.js": "/mindbox-test/static/js/main.cabf7a21.js",
+    "index.html": "/mindbox-test/index.html",
+    "main.5f0c6d09.css.map": "/mindbox-test/static/css/main.5f0c6d09.css.map",
+    "main.cabf7a21.js.map": "/mindbox-test/static/js/main.cabf7a21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f0c6d09.css",
+    "static/js/main.cabf7a21.js"
+  ]
+}
